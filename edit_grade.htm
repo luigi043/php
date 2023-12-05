@@ -1,0 +1,22 @@
+<!-- edit_grade.htm -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Grade</title>
+</head>
+<body>
+<h2>Edit Grade</h2>
+<form action="process_grade.php" method="post">
+    <label for="student_number">Student Number:</label>
+    <input type="text" name="student_number" required><br>
+
+    <!-- Other fields you want to edit -->
+
+    <input type="hidden" name="edit_grade" value="1">
+    <input type="submit" value="Edit Grade">
+</form>
+</body>
+</html>

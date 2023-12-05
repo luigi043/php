@@ -1,0 +1,25 @@
+<!-- add_grade.htm -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Grade</title>
+</head>
+<body>
+<h2>Add Grade</h2>
+<form action="process_grade.php" method="post">
+    <label for="student_number">Student Number:</label>
+    <input type="text" name="student_number" required><br>
+
+    <label for="subjectName">Subject Name:</label>
+    <input type="text" name="subjectName" required><br>
+
+    <label for="grade">Grade:</label>
+    <input type="text" name="grade" required><br>
+
+    <input type="submit" value="Add Grade">
+</form>
+</body>
+</html>

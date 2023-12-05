@@ -1,0 +1,22 @@
+<!-- edit_student.htm -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Student</title>
+</head>
+<body>
+<h2>Edit Student</h2>
+<form action="process_student.php" method="post">
+    <label for="number">Student Number:</label>
+    <input type="text" name="number" required><br>
+
+    <!-- Other fields you want to edit -->
+
+    <input type="hidden" name="edit_student" value="1">
+    <input type="submit" value="Edit Student">
+</form>
+</body>
+</html>
